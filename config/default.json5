@@ -34,16 +34,16 @@
 
   client: {
     // Defines the browser's and nav bar title
-    title: "GitHub Voice",
+    title: "Experimental Learning",
 
     // Vue's public path
     // see: https://cli.vuejs.org/config/#publicpath
     publicPath: "/",
 
     // Social links
-    socialGitHub: "",
+    socialGitHub: "https://github.com/bjsi",
     socialFacebook: "",
-    socialTwitter: "",
+    socialTwitter: "https://twitter.com/experilearning",
     socialDiscord: "",
     socialPatreon: "",
   },
@@ -51,7 +51,7 @@
   // Which repositories' issues should be displayed to the client.
   // Regroup repositories together to create categories. If only a single group exists, the categories will be hidden in the client.
   repositories: [
-    { orgAndRepo: "alexis-/GitHubVoice-TestRepo", displayName: "GitHub Voice" },
+    { orgAndRepo: "bjsi/Feedback", displayName: "Feedback" },
   ],
   // repositoryGroups: [
   //   {
