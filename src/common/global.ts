@@ -20,6 +20,7 @@ declare global {
     socialTwitter: string;
     socialDiscord: string;
     socialPatreon: string;
+    socialWebsite: string;
   }
 
   interface GHConfigServer {

@@ -46,6 +46,7 @@
               <span class="nav-link-inner--text d-none">Discord</span>
           </a>
         </li>
+<<<<<<< HEAD
         <li class="nav-item" v-if="socialLinkPatreon">
           <a class="nav-link nav-link-icon"
              :href="socialLinkPatreon"
@@ -53,6 +54,15 @@
              data-toggle="tooltip" title="Checkout our Patreon">
               <i class="fab fa-patreon"></i>
               <span class="nav-link-inner--text d-none">Patreon</span>
+=======
+        <li class="nav-item" v-if="socialLinkWebsite">
+          <a class="nav-link nav-link-icon"
+             :href="socialLinkWebsite"
+             target="_blank"
+             data-toggle="tooltip" title="Checkout our website">
+              <i class="fab fa-internet-explorer"></i>
+              <span class="nav-link-inner--text d-none">Website</span>
+>>>>>>> add-website-links
           </a>
         </li>
         <li class="nav-item ml-sm-3" v-if="isLoggedIn">
@@ -115,6 +125,9 @@ export default Vue.extend({
     },
     socialLinkPatreon() {
       return process.env.VUE_APP_SOCIAL_PATREON;
+    },
+    socialLinkWebsite() {
+      return process.env.VUE_APP_SOCIAL_WEBSITE;
     },
   },
   data() {

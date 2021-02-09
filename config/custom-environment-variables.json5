@@ -23,5 +23,6 @@
     socialTwitter: "GH_VOICE_CLIENT_SOCIAL_TWITTER",
     socialDiscord: "GH_VOICE_CLIENT_SOCIAL_DISCORD",
     socialPatreon: "GH_VOICE_CLIENT_SOCIAL_PATREON",
+    socialWebsite: "GH_VOICE_CLIENT_SOCIAL_WEBSITE",
   }
 }
