@@ -45,11 +45,8 @@
     socialFacebook: "",
     socialTwitter: "https://twitter.com/experilearning",
     socialDiscord: "",
-<<<<<<< HEAD
     socialPatreon: "",
-=======
     socialWebsite: "",
->>>>>>> add-website-links
   },
 
   // Which repositories' issues should be displayed to the client.
