@@ -2,11 +2,19 @@
   <header class="header-global">
     <base-nav class="navbar-main mb-4" type="" effect="dark" expand>
       <router-link slot="brand" class="navbar-brand mr-sm-5" to="/">
-        <!-- <img src="img/brand/white.png" alt="logo"> -->
-        <h3 class="align-middle my-0 text-white">
-          <i class="far fa-comment-dots mx-2"></i> {{appTitle()}}
-          <badge class="ml-1 pt-2" custom-color="red">BETA</badge>
-        </h3>
+      <div class="row">
+        <div class="column">
+            <img class="mt-2 mr-2" src="img/brand/experimental-learning-logo.png" alt="logo">
+        </div>
+        <div class="column">
+            <h4 class="align-middle my-0 text-white">
+                {{appTitle()}}
+            </h4>
+            <h6 >
+                Built with <a href="https://github.com/alexis-/GitHub-Voice">GitHub Voice</a>
+            </h6>
+        </div>
+        </div>
       </router-link>
 
       <ul class="navbar-nav align-items-center ml-auto">
@@ -14,7 +22,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkGitHub"
              target="_blank"
-             data-toggle="tooltip" title="Visit our Github page">
+             data-toggle="tooltip" title="Visit my Github page">
             <i class="fab fa-github"></i>
             <span class="nav-link-inner--text d-none">Github</span>
           </a>
@@ -23,7 +31,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkFacebook"
              target="_blank"
-             data-toggle="tooltip" title="Visit our Facebook page">
+             data-toggle="tooltip" title="Visit my Facebook page">
             <i class="fab fa-facebook"></i>
             <span class="nav-link-inner--text d-none">Facebook</span>
           </a>
@@ -32,7 +40,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkTwitter"
              target="_blank"
-             data-toggle="tooltip" title="Visit our Twitter page">
+             data-toggle="tooltip" title="Visit my Twitter page">
             <i class="fab fa-twitter"></i>
             <span class="nav-link-inner--text d-none">Twitter</span>
           </a>
@@ -41,7 +49,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkDiscord"
              target="_blank"
-             data-toggle="tooltip" title="Join our Discord server">
+             data-toggle="tooltip" title="Join my Discord server">
               <i class="fab fa-discord"></i>
               <span class="nav-link-inner--text d-none">Discord</span>
           </a>
@@ -50,7 +58,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkPatreon"
              target="_blank"
-             data-toggle="tooltip" title="Checkout our Patreon">
+             data-toggle="tooltip" title="Checkout my Patreon">
               <i class="fab fa-patreon"></i>
               <span class="nav-link-inner--text d-none">Patreon</span>
           </a>
@@ -59,7 +67,7 @@
           <a class="nav-link nav-link-icon"
              :href="socialLinkWebsite"
              target="_blank"
-             data-toggle="tooltip" title="Checkout our website">
+             data-toggle="tooltip" title="Checkout my website">
               <i class="fab fa-internet-explorer"></i>
               <span class="nav-link-inner--text d-none">Website</span>
           </a>
@@ -95,7 +103,6 @@ import Badge from '@/components/base/Badge.vue';
 export default Vue.extend({
   components: {
     BaseNav,
-    Badge,
   },
   computed: {
     user() {

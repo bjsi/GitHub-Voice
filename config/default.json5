@@ -34,7 +34,7 @@
 
   client: {
     // Defines the browser's and nav bar title
-    title: "Experimental Learning",
+    title: "Experimental Learning Feedback",
 
     // Vue's public path
     // see: https://cli.vuejs.org/config/#publicpath
@@ -45,8 +45,8 @@
     socialFacebook: "",
     socialTwitter: "https://twitter.com/experilearning",
     socialDiscord: "",
-    socialPatreon: "",
-    socialWebsite: "",
+    socialPatreon: "https://patreon.com/experimental_learning",
+    socialWebsite: "https://experimentallearning.com",
   },
 
   // Which repositories' issues should be displayed to the client.
