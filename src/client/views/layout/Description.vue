@@ -1,7 +1,15 @@
 <template>
     <section>
       <div class="container-lg">
-        <card>
+        <card class="mb-2">
+            <h4>Welcome!</h4>
+            <p style="font-size: 18px;">
+                This is the feedback site for <a href="https://experimental-learning.com">Experimental Learning</a>. <a href="">Patrons</a> can add ideas/requests/suggestions as issues, vote on polls and leave comments. Make sure to sign up for a <a href="https://github.com/join">GitHub account</a>!
+            </p>
+            <p>
+            This site was built with <a href="https://github.com/alexis-/GitHub-Voice">GitHub Voice</a>.
+            </p>
+
         </card>
       </div>
     </section>
@@ -12,12 +20,12 @@ import Vue from 'vue';
 
 export default Vue.extend({
   components: {
-    user() {
-      return this.$store.getters['auth/user'];
-    },
-    isLoggedIn() {
-      return this.$store.getters['auth/isAuthenticated'];
-    },
+    /* user() { */
+    /*   return this.$store.getters['auth/user']; */
+    /* }, */
+    /* isLoggedIn() { */
+    /*   return this.$store.getters['auth/isAuthenticated']; */
+    /* }, */
   },
   computed: {
   },

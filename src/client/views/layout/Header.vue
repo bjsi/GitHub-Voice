@@ -4,15 +4,12 @@
       <router-link slot="brand" class="navbar-brand mr-sm-5" to="/">
       <div class="row">
         <div class="column">
-            <img class="mt-2 mr-2" src="img/brand/experimental-learning-logo.png" alt="logo">
+            <img class="mr-2" src="img/brand/experimental-learning-logo.png" alt="logo">
         </div>
         <div class="column">
             <h4 class="align-middle my-0 text-white">
                 {{appTitle()}}
             </h4>
-            <h6 >
-                Built with <a href="https://github.com/alexis-/GitHub-Voice">GitHub Voice</a>
-            </h6>
         </div>
         </div>
       </router-link>

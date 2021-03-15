@@ -57,6 +57,7 @@ passport.serializeUser((user, cb) => {
 });
 
 passport.deserializeUser((obj, cb) => {
+  // @ts-ignore
   cb(null, obj);
 });
 
